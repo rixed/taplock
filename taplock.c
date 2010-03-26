@@ -18,8 +18,8 @@ static void syntax(void)
 	printf(
 		"taplock [-r] file\n"
 		"\n"
-		" -r : record new rythm into file\n"
-		" otherwise : lock screen until tapped rythm match previously recorded rythm\n");
+		"\t-r : record new rythm into file\n"
+		"\totherwise : lock screen until tapped rythm match previously recorded rythm\n");
 }
 
 /*
